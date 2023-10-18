@@ -1,5 +1,5 @@
 import telebot
-from telebot import types
+from telebot import types  # Ensure you have this import statement
 
 # Replace 'YOUR_BOT_TOKEN' with the actual token you obtained from BotFather
 TOKEN = '6313560946:AAFF6uYJ3jeiFpeTA2n1Mmd4ZltkXdRvkUI'
@@ -72,4 +72,3 @@ def handle_message(message):
 
 if __name__ == '__main__':
     bot.polling()
-
