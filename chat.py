@@ -1,5 +1,5 @@
 import telebot
-from telebot import TeleBot
+from telebot import types
   # Ensure you have this import statement
 
 # Replace 'YOUR_BOT_TOKEN' with the actual token you obtained from BotFather
